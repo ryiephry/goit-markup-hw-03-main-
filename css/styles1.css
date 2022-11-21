@@ -17,6 +17,7 @@ body {
   text-decoration: none;
   padding: none;
 }
+
 ul {
   list-style: none;
 }
@@ -27,6 +28,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .header-navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -54,6 +56,8 @@ ul {
 }
 .hero {
   background-color: var(--background-dark-color);
+  padding: 200px;
+  align-items: center;
 }
 
 .hero-button {
@@ -86,6 +90,7 @@ ul {
   text-transform: uppercase;
   color: var(--white-color);
   border-color: var(--primary-text-color);
+  display: fle;
 }
 .hero-titles .titles-for-paragraphs {
   font-weight: 700;
@@ -288,14 +293,19 @@ a {
 /*positioning index*/
 
 header.header-navigation-link {
-  justify-content: space-between;
+  display: flex;
+  /* justify-content: space-between;*/
+  margin-left: 69px;
+}
+header .header-navigation-link li {
+  display: flex;
+  margin: 0px 20px;
 }
 .text-for-profilepics ul {
   display: flex;
-}
-.text-for-profilepics li {
   padding: 10px 20px;
 }
+
 .all-buttons button {
   padding: 10px 20px;
 }
@@ -316,5 +326,66 @@ header.header-navigation-link {
   margin: 20px 100px;
 }
 .text-for-profilepics2 > li {
+  margin: 10px 20px;
   /*padding: 10px 10px;*/
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphs-disription > ul {
+  display: flex;
+  justify-content: center;
+  max-width: 270px;
+  margin: 0px 30px;
+}
+.paragraphs-discription {
+  width: 1170px;
+  height: 95px;
+  left: 215px;
+  top: 774px;
+  justify-content: center;
+}
+main.paragraphs-discription {
+  justify-content: center;
+}
+
+.title-for-images1 > ul {
+  margin: 10px 30px;
+}
+section li {
+  margin: 10px;
+}
+header > nav li {
+  justify-content: space-between;
+}
+
+.text-for-profilepics > ul li {
+  background-color: var(--white-color);
+  box-shadow: 0px 2px 1px 0px #00000033;
+
+  box-shadow: 0px 1px 1px 0px #00000024;
+
+  box-shadow: 0px 1px 3px 0px #0000001f;
+}
+header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+header > nav {
+  max-width: fit-content;
+}
+header > nav li {
+  background-color: #2f303a;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1600px;
+  max-height: 2359px;
+  box-sizing: border-box;
 }
