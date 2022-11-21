@@ -16,6 +16,7 @@ body {
 * {
   text-decoration: none;
   padding: none;
+  box-sizing: border-box;
 }
 
 ul {
@@ -388,4 +389,5 @@ header > nav li {
   max-width: 1600px;
   max-height: 2359px;
   box-sizing: border-box;
+  content: ;
 }
