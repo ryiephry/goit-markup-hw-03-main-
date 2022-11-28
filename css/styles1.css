@@ -60,17 +60,10 @@ ul {
   color: var(--accent-color);
 }
 
-.hero {
-  background-color: var(--background-dark-color);
-  /*padding: 200px;*/
-  align-items: center;
-}
-
 .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -80,7 +73,11 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  padding: 5px 10px;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .text-for-profilepics>ul li {
@@ -107,7 +104,7 @@ ul {
   text-transform: uppercase;
   color: var(--white-color);
   border-color: var(--primary-text-color);
-  display: fle;
+  margin-bottom: 30px;
 }
 
 .hero-titles .titles-for-paragraphs {
@@ -324,7 +321,6 @@ a {
 /*header*/
 .container {
   max-width: 1200px;
-  max-height: 2359px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -352,10 +348,6 @@ header {
 
 .header-container nav {
   display: flex;
-}
-
-h1 {
-  margin-bottom: 30px;
 }
 
 .header-container {
@@ -395,17 +387,10 @@ h1 {
 
 .hero {
   padding-top: 200px;
-  padding-right: 200px;
-  padding-left: 200px;
   padding-bottom: 280px;
+  background-color: var(--background-dark-color);
 }
 
-.hero-button-positioning {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-}
 
 
 .paragraphs-discription {
@@ -566,17 +551,6 @@ h1 {
   padding-bottom: 60px;
 }
 
-/*
-body {
-  max-width: max-content;
-}
-*/
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-
 .header-section {
   border-bottom: #ECECEC;
   border-bottom-style: solid;
@@ -677,12 +651,6 @@ body {
   padding: 30px 0px;
 }
 
-.hero-button-positioning {
-  margin-left: 500px;
-  margin: auto;
-  padding: 10px 20px;
-
-}
 
 .profile-pic-spaces-p-2 {
   padding: 20px 24px;
